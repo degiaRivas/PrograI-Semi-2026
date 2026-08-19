@@ -17,9 +17,14 @@ namespace miDecimaAplicacion
             InitializeComponent();
         }
 
-        private void btnSaludo_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola, papus de Programación I");
+            double num1, num2, resultado;
+            num1 = Double.Parse(txtNum1.Text);
+            num2 = Double.Parse(txtNum2.Text);
+
+            resultado = num1 + num2;
+            lblRespuesta.Text = "Respuesta: " + resultado.ToString();
         }
     }
 }

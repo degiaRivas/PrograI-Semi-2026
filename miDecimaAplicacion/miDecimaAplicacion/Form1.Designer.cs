@@ -29,40 +29,84 @@ namespace miDecimaAplicacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSaludo = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNum1 = new System.Windows.Forms.Label();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
+            this.lblNum2 = new System.Windows.Forms.Label();
+            this.lblRespuesta = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnSaludo
+            // lblNum1
             // 
-            this.btnSaludo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaludo.Location = new System.Drawing.Point(140, 67);
-            this.btnSaludo.Name = "btnSaludo";
-            this.btnSaludo.Size = new System.Drawing.Size(130, 55);
-            this.btnSaludo.TabIndex = 0;
-            this.btnSaludo.Text = "Saludo";
-            this.btnSaludo.UseVisualStyleBackColor = true;
-            this.btnSaludo.Click += new System.EventHandler(this.btnSaludo_Click);
+            this.lblNum1.AutoSize = true;
+            this.lblNum1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum1.Location = new System.Drawing.Point(59, 55);
+            this.lblNum1.Name = "lblNum1";
+            this.lblNum1.Size = new System.Drawing.Size(88, 21);
+            this.lblNum1.TabIndex = 0;
+            this.lblNum1.Text = "Número 1:";
             // 
-            // label1
+            // btnCalcular
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(391, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Da clic al botón para mostrar un mensaje";
+            this.btnCalcular.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(201, 196);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(101, 29);
+            this.btnCalcular.TabIndex = 1;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            // 
+            // txtNum1
+            // 
+            this.txtNum1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum1.Location = new System.Drawing.Point(157, 51);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(167, 29);
+            this.txtNum1.TabIndex = 2;
+            // 
+            // txtNum2
+            // 
+            this.txtNum2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum2.Location = new System.Drawing.Point(157, 98);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(167, 29);
+            this.txtNum2.TabIndex = 4;
+            // 
+            // lblNum2
+            // 
+            this.lblNum2.AutoSize = true;
+            this.lblNum2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum2.Location = new System.Drawing.Point(59, 102);
+            this.lblNum2.Name = "lblNum2";
+            this.lblNum2.Size = new System.Drawing.Size(88, 21);
+            this.lblNum2.TabIndex = 3;
+            this.lblNum2.Text = "Número 2:";
+            // 
+            // lblRespuesta
+            // 
+            this.lblRespuesta.AutoSize = true;
+            this.lblRespuesta.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuesta.Location = new System.Drawing.Point(59, 164);
+            this.lblRespuesta.Name = "lblRespuesta";
+            this.lblRespuesta.Size = new System.Drawing.Size(104, 21);
+            this.lblRespuesta.TabIndex = 5;
+            this.lblRespuesta.Text = "Respuesta: ?";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 148);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSaludo);
+            this.ClientSize = new System.Drawing.Size(503, 248);
+            this.Controls.Add(this.lblRespuesta);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.lblNum2);
+            this.Controls.Add(this.txtNum1);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.lblNum1);
             this.Name = "Form1";
-            this.Text = "Mi Primera Aplicación";
+            this.Text = "Calculadora Básica";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,8 +114,12 @@ namespace miDecimaAplicacion
 
         #endregion
 
-        private System.Windows.Forms.Button btnSaludo;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNum1;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtNum2;
+        private System.Windows.Forms.Label lblNum2;
+        private System.Windows.Forms.Label lblRespuesta;
     }
 }
 
