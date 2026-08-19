@@ -37,13 +37,15 @@ namespace miDecimaAplicacion
             this.lblRespuesta = new System.Windows.Forms.Label();
             this.cboDe = new System.Windows.Forms.ComboBox();
             this.cboA = new System.Windows.Forms.ComboBox();
+            this.cboOpciones = new System.Windows.Forms.ComboBox();
+            this.lblOpciones = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblDe
             // 
             this.lblDe.AutoSize = true;
             this.lblDe.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDe.Location = new System.Drawing.Point(29, 37);
+            this.lblDe.Location = new System.Drawing.Point(29, 78);
             this.lblDe.Name = "lblDe";
             this.lblDe.Size = new System.Drawing.Size(35, 21);
             this.lblDe.TabIndex = 3;
@@ -53,7 +55,7 @@ namespace miDecimaAplicacion
             // 
             this.lblA.AutoSize = true;
             this.lblA.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblA.Location = new System.Drawing.Point(274, 38);
+            this.lblA.Location = new System.Drawing.Point(274, 79);
             this.lblA.Name = "lblA";
             this.lblA.Size = new System.Drawing.Size(27, 21);
             this.lblA.TabIndex = 5;
@@ -62,7 +64,7 @@ namespace miDecimaAplicacion
             // txtCantidad
             // 
             this.txtCantidad.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidad.Location = new System.Drawing.Point(113, 101);
+            this.txtCantidad.Location = new System.Drawing.Point(113, 142);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(167, 29);
             this.txtCantidad.TabIndex = 8;
@@ -72,7 +74,7 @@ namespace miDecimaAplicacion
             // 
             this.lblCantidad.AutoSize = true;
             this.lblCantidad.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad.Location = new System.Drawing.Point(29, 105);
+            this.lblCantidad.Location = new System.Drawing.Point(29, 146);
             this.lblCantidad.Name = "lblCantidad";
             this.lblCantidad.Size = new System.Drawing.Size(81, 21);
             this.lblCantidad.TabIndex = 7;
@@ -81,7 +83,7 @@ namespace miDecimaAplicacion
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(196, 184);
+            this.btnCalcular.Location = new System.Drawing.Point(196, 211);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(104, 42);
             this.btnCalcular.TabIndex = 9;
@@ -93,7 +95,7 @@ namespace miDecimaAplicacion
             // 
             this.lblRespuesta.AutoSize = true;
             this.lblRespuesta.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuesta.Location = new System.Drawing.Point(308, 105);
+            this.lblRespuesta.Location = new System.Drawing.Point(308, 146);
             this.lblRespuesta.Name = "lblRespuesta";
             this.lblRespuesta.Size = new System.Drawing.Size(104, 21);
             this.lblRespuesta.TabIndex = 10;
@@ -113,7 +115,7 @@ namespace miDecimaAplicacion
             "Yardas",
             "Kilómetros",
             "Millas"});
-            this.cboDe.Location = new System.Drawing.Point(67, 33);
+            this.cboDe.Location = new System.Drawing.Point(67, 74);
             this.cboDe.Name = "cboDe";
             this.cboDe.Size = new System.Drawing.Size(137, 29);
             this.cboDe.TabIndex = 11;
@@ -132,16 +134,46 @@ namespace miDecimaAplicacion
             "Yardas",
             "Kilómetros",
             "Millas"});
-            this.cboA.Location = new System.Drawing.Point(304, 34);
+            this.cboA.Location = new System.Drawing.Point(304, 75);
             this.cboA.Name = "cboA";
             this.cboA.Size = new System.Drawing.Size(137, 29);
             this.cboA.TabIndex = 12;
+            // 
+            // cboOpciones
+            // 
+            this.cboOpciones.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboOpciones.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboOpciones.FormattingEnabled = true;
+            this.cboOpciones.Items.AddRange(new object[] {
+            "Longitud",
+            "Monedas",
+            "Masa",
+            "Volumen",
+            "Almacenamiento",
+            "Tiempo"});
+            this.cboOpciones.Location = new System.Drawing.Point(118, 24);
+            this.cboOpciones.Name = "cboOpciones";
+            this.cboOpciones.Size = new System.Drawing.Size(323, 29);
+            this.cboOpciones.TabIndex = 13;
+            this.cboOpciones.SelectedIndexChanged += new System.EventHandler(this.cboOpciones_SelectedIndexChanged);
+            // 
+            // lblOpciones
+            // 
+            this.lblOpciones.AutoSize = true;
+            this.lblOpciones.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpciones.Location = new System.Drawing.Point(29, 27);
+            this.lblOpciones.Name = "lblOpciones";
+            this.lblOpciones.Size = new System.Drawing.Size(86, 21);
+            this.lblOpciones.TabIndex = 14;
+            this.lblOpciones.Text = "Opciones:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 248);
+            this.ClientSize = new System.Drawing.Size(503, 279);
+            this.Controls.Add(this.lblOpciones);
+            this.Controls.Add(this.cboOpciones);
             this.Controls.Add(this.cboA);
             this.Controls.Add(this.cboDe);
             this.Controls.Add(this.lblRespuesta);
@@ -168,6 +200,8 @@ namespace miDecimaAplicacion
         private System.Windows.Forms.Label lblRespuesta;
         private System.Windows.Forms.ComboBox cboDe;
         private System.Windows.Forms.ComboBox cboA;
+        private System.Windows.Forms.ComboBox cboOpciones;
+        private System.Windows.Forms.Label lblOpciones;
     }
 }
 
