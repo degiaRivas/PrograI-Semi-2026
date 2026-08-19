@@ -183,7 +183,7 @@ namespace miDecimaAplicacion
             this.Controls.Add(this.lblA);
             this.Controls.Add(this.lblDe);
             this.Name = "Form1";
-            this.Text = "Calculadora Básica";
+            this.Text = "Conversor de longitudes";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
