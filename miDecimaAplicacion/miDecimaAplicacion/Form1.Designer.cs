@@ -43,6 +43,8 @@ namespace miDecimaAplicacion
             this.rdbExponente = new System.Windows.Forms.RadioButton();
             this.rdbRaiz = new System.Windows.Forms.RadioButton();
             this.rdbFactorial = new System.Windows.Forms.RadioButton();
+            this.cboOpciones = new System.Windows.Forms.ComboBox();
+            this.lblOpciones = new System.Windows.Forms.Label();
             this.grbOpciones.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@ namespace miDecimaAplicacion
             // 
             this.lblNum1.AutoSize = true;
             this.lblNum1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNum1.Location = new System.Drawing.Point(59, 55);
+            this.lblNum1.Location = new System.Drawing.Point(59, 79);
             this.lblNum1.Name = "lblNum1";
             this.lblNum1.Size = new System.Drawing.Size(88, 21);
             this.lblNum1.TabIndex = 0;
@@ -70,7 +72,7 @@ namespace miDecimaAplicacion
             // txtNum1
             // 
             this.txtNum1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum1.Location = new System.Drawing.Point(157, 51);
+            this.txtNum1.Location = new System.Drawing.Point(157, 75);
             this.txtNum1.Name = "txtNum1";
             this.txtNum1.Size = new System.Drawing.Size(167, 29);
             this.txtNum1.TabIndex = 2;
@@ -78,7 +80,7 @@ namespace miDecimaAplicacion
             // txtNum2
             // 
             this.txtNum2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum2.Location = new System.Drawing.Point(157, 98);
+            this.txtNum2.Location = new System.Drawing.Point(157, 122);
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(167, 29);
             this.txtNum2.TabIndex = 4;
@@ -87,7 +89,7 @@ namespace miDecimaAplicacion
             // 
             this.lblNum2.AutoSize = true;
             this.lblNum2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNum2.Location = new System.Drawing.Point(59, 102);
+            this.lblNum2.Location = new System.Drawing.Point(59, 126);
             this.lblNum2.Name = "lblNum2";
             this.lblNum2.Size = new System.Drawing.Size(88, 21);
             this.lblNum2.TabIndex = 3;
@@ -97,7 +99,7 @@ namespace miDecimaAplicacion
             // 
             this.lblRespuesta.AutoSize = true;
             this.lblRespuesta.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuesta.Location = new System.Drawing.Point(59, 164);
+            this.lblRespuesta.Location = new System.Drawing.Point(59, 174);
             this.lblRespuesta.Name = "lblRespuesta";
             this.lblRespuesta.Size = new System.Drawing.Size(104, 21);
             this.lblRespuesta.TabIndex = 5;
@@ -191,11 +193,41 @@ namespace miDecimaAplicacion
             this.rdbFactorial.Text = "Factorial";
             this.rdbFactorial.UseVisualStyleBackColor = true;
             // 
+            // cboOpciones
+            // 
+            this.cboOpciones.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboOpciones.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboOpciones.FormattingEnabled = true;
+            this.cboOpciones.Items.AddRange(new object[] {
+            "Suma",
+            "Resta",
+            "Multiplicación",
+            "División",
+            "Exponente",
+            "Raíz",
+            "Factorial"});
+            this.cboOpciones.Location = new System.Drawing.Point(157, 29);
+            this.cboOpciones.Name = "cboOpciones";
+            this.cboOpciones.Size = new System.Drawing.Size(167, 29);
+            this.cboOpciones.TabIndex = 7;
+            // 
+            // lblOpciones
+            // 
+            this.lblOpciones.AutoSize = true;
+            this.lblOpciones.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpciones.Location = new System.Drawing.Point(59, 32);
+            this.lblOpciones.Name = "lblOpciones";
+            this.lblOpciones.Size = new System.Drawing.Size(86, 21);
+            this.lblOpciones.TabIndex = 8;
+            this.lblOpciones.Text = "Opciones:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 248);
+            this.Controls.Add(this.lblOpciones);
+            this.Controls.Add(this.cboOpciones);
             this.Controls.Add(this.grbOpciones);
             this.Controls.Add(this.lblRespuesta);
             this.Controls.Add(this.txtNum2);
@@ -228,6 +260,8 @@ namespace miDecimaAplicacion
         private System.Windows.Forms.RadioButton rdbMultiplicacion;
         private System.Windows.Forms.RadioButton rdbResta;
         private System.Windows.Forms.RadioButton rdbSuma;
+        private System.Windows.Forms.ComboBox cboOpciones;
+        private System.Windows.Forms.Label lblOpciones;
     }
 }
 
