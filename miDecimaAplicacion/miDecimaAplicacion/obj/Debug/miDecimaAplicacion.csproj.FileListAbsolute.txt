@@ -1,0 +1,10 @@
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.Form1.resources
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.Properties.Resources.resources
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.csproj.GenerateResource.cache
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\bin\Debug\miDecimaAplicacion.exe.config
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\bin\Debug\miDecimaAplicacion.exe
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\bin\Debug\miDecimaAplicacion.pdb
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.exe
+C:\Users\alber\Desktop\PrograI-Semi-2026\miDecimaAplicacion\miDecimaAplicacion\obj\Debug\miDecimaAplicacion.pdb

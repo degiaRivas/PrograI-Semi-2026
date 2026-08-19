@@ -16,5 +16,10 @@ namespace miDecimaAplicacion
         {
             InitializeComponent();
         }
+
+        private void btnSaludo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola, papus de Programación I");
+        }
     }
 }

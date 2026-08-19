@@ -29,13 +29,49 @@ namespace miDecimaAplicacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnSaludo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btnSaludo
+            // 
+            this.btnSaludo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaludo.Location = new System.Drawing.Point(140, 67);
+            this.btnSaludo.Name = "btnSaludo";
+            this.btnSaludo.Size = new System.Drawing.Size(130, 55);
+            this.btnSaludo.TabIndex = 0;
+            this.btnSaludo.Text = "Saludo";
+            this.btnSaludo.UseVisualStyleBackColor = true;
+            this.btnSaludo.Click += new System.EventHandler(this.btnSaludo_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(391, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Da clic al botón para mostrar un mensaje";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(414, 148);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSaludo);
+            this.Name = "Form1";
+            this.Text = "Mi Primera Aplicación";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSaludo;
+        private System.Windows.Forms.Label label1;
     }
 }
 
