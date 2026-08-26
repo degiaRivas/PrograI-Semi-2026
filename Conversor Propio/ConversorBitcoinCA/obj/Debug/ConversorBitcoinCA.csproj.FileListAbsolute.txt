@@ -1,0 +1,10 @@
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\bin\Debug\ConversorBitcoinCA.exe.config
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\bin\Debug\ConversorBitcoinCA.exe
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\bin\Debug\ConversorBitcoinCA.pdb
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.csproj.AssemblyReference.cache
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.Properties.Resources.resources
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.csproj.GenerateResource.cache
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.csproj.CoreCompileInputs.cache
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.exe
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.pdb
+C:\Users\manue\source\repos\PrograI-Semi-2026\ConversorBitcoinCA\ConversorBitcoinCA\obj\Debug\ConversorBitcoinCA.frmConversorPropio.resources
