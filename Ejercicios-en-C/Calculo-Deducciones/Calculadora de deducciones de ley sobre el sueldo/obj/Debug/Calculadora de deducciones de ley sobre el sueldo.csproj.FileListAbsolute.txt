@@ -1,0 +1,10 @@
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora de deducciones de ley sobre el sueldo.csproj.AssemblyReference.cache
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora_de_deducciones_de_ley_sobre_el_sueldo.Properties.Resources.resources
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora de deducciones de ley sobre el sueldo.csproj.GenerateResource.cache
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora de deducciones de ley sobre el sueldo.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\bin\Debug\Calculadora de deducciones de ley sobre el sueldo.exe.config
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\bin\Debug\Calculadora de deducciones de ley sobre el sueldo.exe
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\bin\Debug\Calculadora de deducciones de ley sobre el sueldo.pdb
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora de deducciones de ley sobre el sueldo.exe
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora de deducciones de ley sobre el sueldo.pdb
+C:\Users\Guillermo\Documents\Progra2026\Calculadora de deducciones de ley sobre el sueldo\Calculadora de deducciones de ley sobre el sueldo\obj\Debug\Calculadora_de_deducciones_de_ley_sobre_el_sueldo.frmSueldos.resources
