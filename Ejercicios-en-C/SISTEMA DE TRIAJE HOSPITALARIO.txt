@@ -1,0 +1,4 @@
+El sistema de triaje hospitalario está subido en un repositorio aparte, debido a que
+un compañero tuvo problemas con su cuenta de GitHub.
+
+El enlace al repositorio es este: https://github.com/kevinsote503/Sistema-de-triaje
