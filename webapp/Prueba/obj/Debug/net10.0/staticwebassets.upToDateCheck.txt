@@ -1,0 +1,3 @@
+wwwroot\img\UGB_LOGOTIPO_HORIZONTAL_POS-2.png.webp
+wwwroot\views\index.html
+C:\Users\Estudiante\Desktop\Prueba\Prueba\wwwroot\views\index.html
