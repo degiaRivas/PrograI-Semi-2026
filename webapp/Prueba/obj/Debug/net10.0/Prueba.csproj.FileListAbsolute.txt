@@ -166,3 +166,6 @@ C:\Users\Estudiante\Desktop\Prueba\Prueba\obj\Debug\net10.0\refint\Prueba.dll
 C:\Users\Estudiante\Desktop\Prueba\Prueba\obj\Debug\net10.0\Prueba.pdb
 C:\Users\Estudiante\Desktop\Prueba\Prueba\obj\Debug\net10.0\Prueba.genruntimeconfig.cache
 C:\Users\Estudiante\Desktop\Prueba\Prueba\obj\Debug\net10.0\ref\Prueba.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\Prueba.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\refint\Prueba.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\Prueba.pdb

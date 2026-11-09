@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\webapp",
+    "\\webapp\\Prueba",
+    "\\webapp\\Prueba\\bin",
+    "\\webapp\\Prueba\\Models"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\webapp",
   "PreviewInSolutionExplorer": false
 }
