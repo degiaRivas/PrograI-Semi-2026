@@ -4,8 +4,8 @@
     "\\webapp",
     "\\webapp\\Prueba",
     "\\webapp\\Prueba\\bin",
-    "\\webapp\\Prueba\\Models"
+    "\\webapp\\Prueba\\wwwroot"
   ],
-  "SelectedNode": "\\webapp",
+  "SelectedNode": "\\webapp\\Prueba.slnx",
   "PreviewInSolutionExplorer": false
 }
