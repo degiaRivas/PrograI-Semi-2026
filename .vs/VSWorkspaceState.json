@@ -4,8 +4,10 @@
     "\\webapp",
     "\\webapp\\Prueba",
     "\\webapp\\Prueba\\bin",
-    "\\webapp\\Prueba\\Controllers",
-    "\\webapp\\Prueba\\wwwroot"
+    "\\webapp\\Prueba\\bin\\Debug",
+    "\\webapp\\Prueba\\Models",
+    "\\webapp\\Prueba\\wwwroot\\views"
   ],
+  "SelectedNode": "\\Ejercicios-en-C",
   "PreviewInSolutionExplorer": false
 }
