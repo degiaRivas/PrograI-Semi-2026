@@ -5,7 +5,10 @@
     "\\webapp\\Prueba",
     "\\webapp\\Prueba\\bin",
     "\\webapp\\Prueba\\Controllers",
-    "\\webapp\\Prueba\\wwwroot"
+    "\\webapp\\Prueba\\wwwroot",
+    "\\webapp\\Prueba\\wwwroot\\img",
+    "\\webapp\\Prueba\\wwwroot\\views"
   ],
+  "SelectedNode": "\\webapp",
   "PreviewInSolutionExplorer": false
 }
