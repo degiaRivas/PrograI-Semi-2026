@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using webapp.Models;
+using Prueba.Models;
 
 [Route("api/[controller]")]
 [ApiController]

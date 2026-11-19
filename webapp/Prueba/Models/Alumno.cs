@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace prueba.Models
+namespace Prueba.Models
 {
 	public class Alumno
 	{

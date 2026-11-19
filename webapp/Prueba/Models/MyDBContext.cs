@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using prueba.Models;
-namespace webapp.Models
+namespace Prueba.Models
 {
     public class MyDbContext : DbContext
     {

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using webapp.Models;
+using Prueba.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
