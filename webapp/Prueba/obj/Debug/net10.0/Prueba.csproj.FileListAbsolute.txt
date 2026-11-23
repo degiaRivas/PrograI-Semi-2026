@@ -328,10 +328,6 @@ C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\rjimswa
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\scopedcss\bundle\Prueba.styles.css
-C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\vlw77kn6s7-{0}-5uvb9u6bvv-5uvb9u6bvv.gz
-C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\t6ycg6dnm3-{0}-wbkxynzlbn-wbkxynzlbn.gz
-C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\bedq2pburd-{0}-tiavjrsusu-tiavjrsusu.gz
-C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\ff42darpni-{0}-94i2u8oq0o-94i2u8oq0o.gz
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\staticwebassets.development.json
@@ -341,3 +337,11 @@ C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\staticw
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\Prueba.csproj.Up2Date
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\Prueba.genruntimeconfig.cache
 C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\ref\Prueba.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\ff42darpni-{0}-dzlss7swoz-dzlss7swoz.gz
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\bedq2pburd-{0}-jmjgmkhxhe-jmjgmkhxhe.gz
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\t6ycg6dnm3-{0}-jr3eewybai-jr3eewybai.gz
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\uy48h3tap5-{0}-ee1yyaukqb-ee1yyaukqb.gz
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\f671pnfobl-{0}-s7qcdqzc5u-s7qcdqzc5u.gz
+C:\Users\alber\Desktop\PrograI-Semi-2026\webapp\Prueba\obj\Debug\net10.0\compressed\vlw77kn6s7-{0}-athyufejps-athyufejps.gz
